@@ -1,0 +1,47 @@
+  /*Propiedades personalizadas - custom properties*/
+:root {
+    --blanco: #ffffff;
+    --negro: #000000;
+    --amarillo: #EDA900;;
+    --azul: #141d6f;
+}
+  /*-------------------MENU--------------------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+header {
+    width: 100%;
+    position:fixed;
+}
+
+.container {
+    background-color:var(--amarillo);
+    width: 500px;
+}
+
+nav {
+    background-color: var(--azul);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+  
+nav li {
+    float:left;
+}
+  
+nav a {
+    color:#ffebeb;
+    text-align: center;
+    text-decoration: none;
+    border-color: transparent;
+    font-weight: 150;
+    margin: 5px 10px 5px;
+    padding: 1em;
+}
+  
+nav a:hover {
+    background-color: var(--fondoMenu);
+}

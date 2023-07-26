@@ -1,0 +1,49 @@
+Plataforma de aprendizaje en línea:
+
+Crea una plataforma donde los usuarios puedan acceder a cursos y recursos educativos relacionados con el análisis forense.
+Permite a los usuarios realizar pruebas y evaluaciones en línea para medir su conocimiento y progreso.
+Foro de discusión y comunidad:
+
+Establece un foro en línea donde los usuarios puedan interactuar, hacer preguntas y compartir sus experiencias en el campo del análisis forense.
+Fomenta la participación activa de los usuarios mediante la moderación de discusiones y la respuesta a consultas.
+Herramientas interactivas:
+
+Desarrolla herramientas interactivas en línea que permitan a los usuarios realizar análisis forenses simulados, como la extracción de datos de dispositivos o el análisis de registros.
+Proporciona una interfaz intuitiva y guías paso a paso para ayudar a los usuarios a comprender y utilizar las herramientas de manera efectiva.
+Blog colaborativo:
+
+Crea un blog donde los usuarios puedan contribuir con artículos, estudios de casos o investigaciones relacionadas con el análisis forense.
+Permite a los usuarios comentar y debatir los temas presentados en el blog, fomentando la interacción y el intercambio de conocimientos.
+Sala de chat en vivo:
+
+Implementa una sala de chat en vivo donde los usuarios puedan conectarse en tiempo real para realizar consultas rápidas o discutir temas relacionados con el análisis forense.
+Asigna moderadores o expertos en el campo para responder preguntas y brindar orientación.
+Recursos descargables:
+
+Proporciona recursos descargables gratuitos, como plantillas, listas de verificación o guías prácticas, que los usuarios puedan utilizar en su trabajo de análisis forense.
+Permite a los usuarios compartir sus propios recursos y colaborar en la creación de una biblioteca en línea.
+
+Obtener color de imagen:
+https://imagecolorpicker.com/es
+
+Sitio base:
+https://www.incifocdmx.gob.mx/
+
+Facebook Hans Gross:
+https://www.facebook.com/institutohansgross?locale=es_LA
+
+Slider
+https://es.stackoverflow.com/questions/207155/efecto-de-carrusel-que-divide-imagenes
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,673 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  /* Estilos para el encabezado */
+header {
+  background-color: #eda900;
+  padding: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 24px;
+}
+  
+  /* Estilos para la navegación */
+nav {
+  background-color: #141d6f;
+  justify-content: space-between;
+  display: flex;
+  position: sticky;
+  padding: 5px;
+  width: 100%;
+}
+
+p {
+  text-align: justify;
+}
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: #eda900;
+    color:#141d6f;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para las secciones */
+  section {
+    background-color: #F0F0F0;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para los artículos */
+  article {
+    margin-bottom: 0px;
+  }
+
+  article h1 {
+    font-size: 50px;
+  }
+
+  .image {
+    width: 70%;
+  }
+  
+  /* Estilos para los elementos secundarios */
+  aside {
+    background-color: #e0e0e080;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #141d6f;
+    padding: 20px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  /* Estilos para los botones */
+  button {
+    background-color: #ffc400;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #b48a017e;
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  @media screen and (max-width: 500px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    h3 {
+      font-size: 16px;
+    }
+  
+    h4 {
+      font-size: 14px;
+    }
+  }
+
+  /*----------------------------------------*/
+
+html {
+    scroll-behavior: smooth;
+}
+.servicios-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+.servicio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 33.33%;
+  }
+  
+  .servicio img {
+    width: 150px;
+    margin-right: 20px;
+  }
+  
+  .servicio .contenido {
+    flex-grow: 1;
+  }
+  
+  .servicio h3 {
+    margin-top: 0;
+  }
+  
+  .servicio p {
+    margin-bottom: 0;
+  }
+
+.alinear{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #79bae0;
+}
+
+.consulta3 {
+    display: flow-root;
+    justify-content: space-between;
+    background-color: #79bae0;
+  }
+  
+.consulta3 .formulario-izquierda {
+    width: 50%;
+    padding-right: 20px;
+    background-color: #79bae0;
+  }
+  
+.consulta3 .contenido-derecha {
+    width: 50%;
+    padding-left: 20px;
+    background-color: #79bae0;
+  }
+  
+
+form.consulta {
+    background-color: #79bae0;
+    padding: 20px;
+    overflow: hidden;
+}
+  
+  form.consulta label {
+    display: flex;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  form.consulta select,
+  form.consulta input[type="text"],
+  form.consulta input[type="submit"] {
+    display: flex;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form.consulta select,
+  form.consulta input[type="number"],
+  form.consulta input[type="password"],
+  form.consulta input[type="text"] {
+    width: 300px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  form.consulta input[type="submit"] {
+    background-color: white;
+    color: #E08E79;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    float: right;
+  }
+  
+.consulta2 {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button.btn-primary {
+    background-color: #e0cd79;
+    color: white;
+}
+
+button.btn-primary:hover {
+    background-color: #E08E79;
+}
+
+button.btn-secondary {
+    background-color: #ECE5CE;
+    color: #000000;
+}
+
+button.btn-secondary:hover {
+    background-color: #ECE5CE;
+}
+
+a.button {
+    text-decoration: none;
+}
+
+.nav-contenedor {
+    width: 100%;
+    position: sticky;
+    background: #ECE5CE;    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    top: 0;
+    z-index: 10;
+}
+
+.imagen {
+  width: 50px;
+  align-items: center;
+}
+
+#menu-boton {
+    display: none;
+    color: #d5bb48;
+    cursor: pointer;        
+    transition: color 0.3s;
+}
+
+#menu-boton:hover {
+    color: #878249;
+}
+
+#menu { 
+    font-family: "Montserrat Alternates", serif;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+}
+
+#menu li {
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.5vw;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 150;
+    margin: 3px 8px 3px;
+    padding: 10px;
+}
+
+#menu li a:hover {
+    color: #ece947;    
+}
+
+.mensaje {
+    background: #79bae0;
+    font-family: "Montserrat Alternates", serif;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);    
+    transition: color 0.5s;
+}
+
+/*FONDO*/
+
+.seccion-gestion {
+    background-color: #7987e0;
+    min-height: 10vh;
+    padding: 5%;    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    align-content: center;
+}
+
+.seccion-tabla {
+    background-color: #dd6547;
+    min-height: 85vh;
+    padding: 5%;    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    align-content: center;
+}
+
+/* FONDO */
+.seccion-inicio {
+  background-color: #E8E2DB;
+  padding: 5%;    
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 50px;
+}
+
+/*CUADRO DE INICIO*/
+.tarjeta-inicio {
+  background: #FBF3F2;
+  border: 5px solid #ffffff;  
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;    
+}
+
+/*TITULO DEL CUADRO*/
+.tarjeta-inicio h1 {
+  font-family:'Segoe UI', sans-serif;
+  color: #111275;
+  font-size: 5rem;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+}
+
+.tarjeta-inicio h1 span {
+  color: #774F38;
+}
+
+.tarjeta-inicio p {
+  font-family: "Montserrat Alternates", serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/*BOTON DEL CUADRO*/
+.boton {
+  background: #dea001;
+  font-family: "Montserrat Alternates", serif;
+  font-size: 1.3rem;
+  color: white;
+  display: block;    
+  padding: 16px 0 16px 0;
+  transition: background 0.3s;
+}
+
+/*FONDO DEL BOTON CUANDO ESTÁ PRESIONADO*/
+.boton:hover {
+    background: #d9ad3da6;
+}
+
+a.boton{
+    text-decoration:none;
+    text-align: center;
+}
+
+/*BORDE DE LA IMAGEN*/
+.img-contenedor {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    overflow: hidden;
+}
+
+.carrusel {
+    height: 100%;
+    width: 500%;
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: left 0.3s;    
+}
+
+.carrusel img{
+    object-fit: cover;
+    height: 100%;
+    width: 20%;
+}
+
+.contenedor-nav-img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(108, 102, 102, 0.67);
+}
+
+.navegador-img {
+    display: flex;
+    list-style: none;
+    color: white;    
+    justify-content: space-around;
+    font-size: 2rem;
+}
+
+.navegador-img li {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+    
+.navegador-img li:hover {
+    color: black;
+}
+
+
+.seccion-categorias {
+    background: #9d9d2e;
+}
+
+/*LIC EN CIENCIAS FORENCES*/
+.cuatrimestre {
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(4, 1fr); 
+  gap: 20px;
+  width: 98%;
+}
+
+.table {
+  width:0%;
+  margin: 10px;
+  border-radius: 30px;
+  justify-content: center;
+}
+
+.table th {
+  height: 50px;
+  vertical-align: bottom;
+  text-align: center;
+}
+
+/*SEGUNDA SECCION DEL INICIO*/
+.contenedor-tarjetas {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+    gap: 10px;
+}
+
+.categoria-tarjeta {
+    background: #ECE5CE;
+    width: 300px;    
+    margin: 8rem auto 2rem auto;
+    padding: 2rem;
+    position: relative;
+    transition: box-shadow 0.5s;
+}
+
+.categoria-tarjeta:hover {
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+.categoria-titulo {
+    font-family: "Patua One", serif;
+    text-align: center;
+    color: #774F38;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 2rem;
+    padding: 0.8rem;
+}
+
+.categoria-tarjeta img{
+    width: 180px;
+    border-radius: 50%; 
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+
+.categoria-tarjeta h2 {
+    color: #774F38;
+    font-family: "Patua One", serif;
+    padding: 10vh 0 2vh 0; 
+}
+
+.categoria-tarjeta p {
+    font-family: "Montserrat Alternates", serif;
+    padding: 2vh 0 2vh 0; 
+}
+
+.categoria-tarjeta button {
+    background: #E08E79;
+    font-family: "Montserrat Alternates", serif;
+    font-size: 1rem;
+    color: white;
+    display: block;    
+    padding: 4% 8% 4% 8%;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100%;
+}
+
+.categoria-tarjeta button:hover {
+    background: #42929D;
+}
+
+.seccion-direccion {
+    background: #E08E79;
+    padding: 10vh 0 10vh 0;
+}
+
+.direccion-tarjeta {
+    font-family: "Montserrat Alternates", serif;
+    width: 90%;
+    margin: auto;
+    background: #e0d6c0;
+    border: 5px solid #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.direccion-tarjeta img {
+    width: 90%;
+    display: block;
+    margin: auto;    
+}
+
+.direccion-datos {
+    flex: 1 1 300px;
+    color: #774F38;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.direccion-datos h3, .direccion-datos p{
+    text-align: center;    
+}
+
+@media (max-width:800px) {
+
+    #menu-boton {
+        display: block;
+    }
+    
+    #menu {
+        background: #42929D;    
+        font-family: "Montserrat Alternates", serif;
+        list-style: none;
+        color: white;
+        text-transform: uppercase;
+        position: fixed;
+        width: 100vw;
+        height: 95vh;
+        z-index: 9;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 8vh;
+        transition: left 0.5s;        
+        left: 100%;
+        top: 7vh;        
+    }
+
+    #menu li {
+        font-size: 1rem;
+    }
+}
+
+/* ---------------- LOGIN -----------------  */
+.titulInscripciones h1 {  
+  font-family: "Montserrat Alternates", sans-serif;
+  text-align: center;
+  color:#eda900;
+}
+
+.formulario {
+  width: calc(50% - 10px);
+  margin: 0 10px 15px 0;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: italic;
+}

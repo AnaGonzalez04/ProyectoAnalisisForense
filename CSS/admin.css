@@ -1,0 +1,95 @@
+
+main {
+    padding-left: 50px;;
+}
+
+body {
+    background-color: #eda900;
+}
+
+h1 {
+    font-family:'Segoe UI', sans-serif;
+    color: #111275;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: "Patua One", serif;
+    color:#141d6f;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-family: "Montserrat Alternates", serif;
+    color:#141d6f;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/*
+main div {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
+    width: 500px; 
+    height: 600px; 
+    column-gap:130px
+}
+
+input {
+    background-color: #ffffff; 
+    width: 500px; 
+    height: 100px;
+}
+
+.botonSubirArchivo {
+    text-align:left; 
+    padding-left:200px;
+}
+
+.buscarAlumno div{
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+}*/
+
+table {
+    width: 1200px;
+    background-color:#ffffff;
+    border: 1px;
+}
+
+th {
+    width: 200px;
+}
+
+/*
+.user-icon-menu {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-menu a:hover {
+    background-color: #ddd;
+}*/
